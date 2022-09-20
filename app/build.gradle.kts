@@ -24,17 +24,17 @@ plugins {
 }
 
 android {
-    namespace = "android.template"
+    namespace = "com.exapmle.ogasample"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "android.template"
+        applicationId = "com.exapmle.ogasample"
         minSdk = 21
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
-        testInstrumentationRunner = "android.template.HiltTestRunner"
+        testInstrumentationRunner = "com.exapmle.ogasample.HiltTestRunner"
         vectorDrawables {
             useSupportLibrary = true
         }
